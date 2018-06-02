@@ -368,6 +368,11 @@ footer a {
   text-decoration: none;
   color: #333;
 }
+@media screen and (max-width: 360px) {
+  main {
+    width: 350px;
+  }
+}
 @media screen and (min-width: 600px) and (max-width: 799px) {
   main {
     width: 600px;
